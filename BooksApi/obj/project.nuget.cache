@@ -1,16 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "033F4Xk6TQA+iTWgiE8F+edGEzoULnpsvQ45Rcx2CortgZK2nrWXqXLHwSc9WuslXSCNDHbT2HdcPK8HYWfMvw==",
-  "success": true,
+  "dgSpecHash": "OMNVmamsi/xWRzyS25o6C0ma5gwz12DowrGEqqvwKafhOQklVdRJI82pRNHhho6Qd1zZVh4RLKO6w9ftuPA7/w==",
+  "success": false,
   "projectFilePath": "C:\\Users\\marco\\BooksSolution\\BooksApi\\BooksApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\marco\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Microsoft.AspNetCore.OpenApi 8.0.6 no es compatible con net7.0 (.NETCoreApp,Version=v7.0). El paquete Microsoft.AspNetCore.OpenApi 8.0.6 admite: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
