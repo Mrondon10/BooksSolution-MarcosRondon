@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+
+# Optional: Mac/Windows user files
+.DS_Store
+Thumbs.db
