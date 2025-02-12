@@ -27,7 +27,7 @@ Repositorio en GitHub con GitFlow (opcional): implementado.
 Nota: Fakerestapi no persiste cambios; sin embargo, este backend envía las peticiones y maneja las respuestas (status codes).
 
 1. Requerimientos Técnicos
-C# (ASP.NET Core 8.0).
+C# (ASP.NET Core 7.0).
 HttpClient para llamar al endpoint externo de Fakerestapi.
 xUnit para pruebas unitarias.
 Ningún wizard o Scaffolding de Visual Studio he utilizado.
